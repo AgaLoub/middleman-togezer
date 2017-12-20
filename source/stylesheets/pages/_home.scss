@@ -1,5 +1,5 @@
 #home {
-  background-color: #D23333;
+  background-color: red;
   color: white;
   height: 100vh;
   display: flex;
@@ -15,3 +15,37 @@
     font-size: 16px;
   }
 }
+
+.services {
+  background-color: $light-gray;
+  text-align: center;
+  padding: 70px;
+  padding-bottom: 50px;
+  font-size: 17px;
+  i {
+    font-size: 40px;
+    color: $brand-success;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 50px;
+  }
+}
+
+.manifeste {
+  border-radius: 5px;
+  text-align: center;
+  width: 100vw;
+  padding: 70px 50px;
+  margin: 20px auto;
+  background-color: white;
+  h2 {
+    margin-top:0px;
+  }
+ p {
+    font-size: 20px;
+    padding: 5px 20px;
+    margin-top: 30px;
+}
+}
+
