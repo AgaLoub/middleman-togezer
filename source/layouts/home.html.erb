@@ -1,0 +1,36 @@
+<% content_for(:navbar_class, "navbar-home") %>
+
+<div class="home-global-container" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 50%), url(<%= image_path "camels.jpg" %>)"">
+  <%= partial "shared/navbar" %>
+
+    <div class="banner">
+
+      <div class="banner-content">
+        <p>Travel Agents & DMCs</p>
+        <%= image_tag "togezer.png" %>
+        <h4>Réunis sur une plateforme BtoB, retrouvez un réseau mondial de réceptifs
+          <ul class="word-values">
+            <a href="#services">INNOVANTS</a>, <a href="#manifeste"> LIBRES</a> et <a href="#team">PASSIONNES</a>.
+          </ul>
+        </h4>
+        <a><input type="button" class="btn btn-access" name="access" value="Accéder à la plateforme" onclick="window.open('http://all.togezer.travel/login?redirect=%2F');"onclick></a>
+      </div>
+    </div>
+</div>
+
+  <%= partial "pages/services" %>
+
+  <div id="manifeste">
+    <%= partial "pages/manifeste" %>
+  </div>
+
+  <div id="team">
+    <h2>Team</h2>
+    <%= partial "pages/team" %>
+  </div>
+
+<div id="contact" class="container-fluid contact">
+  <%= partial "pages/contact"  %>
+</div>
+
+<%= partial "shared/footer" %>

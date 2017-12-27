@@ -1,5 +1,4 @@
 #home {
-  background-color: red;
   color: white;
   height: 100vh;
   display: flex;
@@ -27,28 +26,10 @@
   }
   i {
     font-size: 40px;
-    color: $brand-success;
+    color: #1783BD;
     margin-bottom: 20px;
   }
   p {
     margin-bottom: 50px;
   }
 }
-
-.manifeste {
-  border-radius: 5px;
-  text-align: center;
-  width: 100vw;
-  padding: 70px 50px;
-  margin: 20px auto;
-  background-color: white;
-  h2 {
-    margin-top:0px;
-  }
- p {
-    font-size: 20px;
-    padding: 5px 20px;
-    margin-top: 30px;
-}
-}
-
