@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "typed.js": "^2.0.6"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
   }
 }
