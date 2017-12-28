@@ -13,16 +13,38 @@
   li {
      list-style: none;
   }
-  i {
-    font-size: 40px;
-    color: #1783BD;
-    margin-bottom: 20px;
-  }
   p {
     margin-bottom: 50px;
   }
 }
-
-.contact-coordonnees {
-  border: red;
+.image-chatbot :hover {
+  opacity: 0.7;
 }
+.contact-coordonnees {
+  text-align: center;
+}
+
+.contact-coordonnees h4 {
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+.contact-coordonnees i {
+    font-size: 20px;
+    color: #1783BD;
+    margin-bottom: 20px;
+}
+
+.facebook-contact {
+  font-size: 25px;
+  padding-top: 30px;
+}
+
+.facebook-contact i {
+  color: #3B50A2;
+  font-size: 30px;
+  &:hover {
+  opacity: 0.7;
+}
+}
+

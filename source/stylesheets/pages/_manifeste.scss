@@ -1,27 +1,28 @@
 #manifeste {
   background-size: cover !important;
+  border-radius: 15px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 30px;
+  margin: 0px 20px;
   opacity: 0.9;
+  background-repeat:no-repeat;
   h2 {
     margin-top: 0px;
-    padding-top: 20px;
+    padding-top: 50px;
     color: black;
     opacity: 1;
+    font-family: 'Handlee', cursive;
   }
  p {
-    font-size: 20px;
-    padding: 5px 20px;
+    font-size: 22px;
+    padding: 5px 50px;
     margin-top: 30px;
     opacity: 1;
     color: black;
+    font-family: 'Handlee', cursive;
 }
 }
-
-// .manifeste {
-//   border-radius: 5px;
-//   text-align: center;
-
-//   background-color: white;
-
+.manifeste-text {
+  color: red;
+}
