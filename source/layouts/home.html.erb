@@ -1,13 +1,16 @@
 <% content_for(:navbar_class, "navbar-home") %>
 
-<div class="home-global-container" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 50%), url(<%= image_path "camels.jpg" %>)"">
+<div class="home-global-container" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 50%), url(<%= image_path "frog.jpg" %>)"">
   <%= partial "shared/navbar" %>
 
     <div class="banner">
 
       <div class="banner-content">
-        <p>Travel Agents & DMCs</p>
-        <%= image_tag "togezer.png" %>
+        <h1 class="ml15">
+          <span class="word"><%= image_tag "togezer.png" %></span>
+        </h1>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
         <h4>Réunis sur une plateforme BtoB, retrouvez un réseau mondial de réceptifs
           <ul class="word-values">
             <a href="#services">INNOVANTS</a>, <a href="#manifeste"> LIBRES</a> et <a href="#team">PASSIONNES</a>.
@@ -25,7 +28,6 @@
   </div>
 
   <div id="team">
-    <h2>Team</h2>
     <%= partial "pages/team" %>
   </div>
 
@@ -34,3 +36,24 @@
 </div>
 
 <%= partial "shared/footer" %>
+
+
+<script>
+  anime.timeline({loop: false})
+  .add({
+    targets: '.ml15 .word',
+    scale: [14,1],
+    opacity: [0,1],
+    easing: "easeOutCirc",
+    duration: 1000,
+    // delay: function(el, i) {
+    //   return 800 * i;
+    // }
+  }).add({
+    targets: '.ml15',
+    opacity: 0,
+    duration: 800000,
+    easing: "easeOutExpo",
+    delay: 800000
+  });
+</script>

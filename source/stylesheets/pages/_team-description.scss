@@ -1,7 +1,35 @@
+.team {
+  background-color: white;
+  padding-bottom: 50px;
+}
+
 .team h2 {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
+.onglet {
+  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: white;
+    font-size: 20px;
+    font-family: "Raleway", "Helvetica", "sans-serif";
+    background-color: #1783BD;
+    border-bottom: #1783BD solid 2px;
+  }
+  .nav > li > a {
+    color: #90A4AE;
+    font-size: 20px;
+    font-family: "Raleway", "Helvetica", "sans-serif";
+    border-bottom: solid 2px #90A4AE;
+  }
+  .nav > li > a:hover {
+    color: #1783BD;
+    background: transparent;
+    border-bottom: solid 2px #1783BD;
+  }
+  .nav > li.active {
+    color: #1783BD;
+  }
+}
 
