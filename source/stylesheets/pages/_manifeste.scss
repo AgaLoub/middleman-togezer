@@ -1,29 +1,23 @@
 #manifeste {
-  background-size: cover !important;
-  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
   text-align: center;
-  padding-top: 20px;
   padding-bottom: 30px;
-  margin: 0px 20px;
-  opacity: 0.9;
-  background-repeat:no-repeat;
+  // opacity: 0.9;
   h2 {
     margin-top: 0px;
     padding-top: 50px;
-    color: black;
+    color: white;
     opacity: 1;
-    font-family: 'Handlee', cursive;
+    // font-family: 'Handlee', cursive;
   }
  p {
     font-size: 22px;
-    padding: 5px 50px;
+    padding: 0px 50px;
     margin-top: 30px;
     opacity: 1;
-    color: black;
-    font-family: 'Handlee', cursive;
+    color: white;
+    // font-family: 'Handlee', cursive;
 }
 }
-.manifeste-text {
-  color: red;
-}
-

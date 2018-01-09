@@ -1,0 +1,31 @@
+.onglet {
+  padding-top: 20px;
+}
+
+.onglet {
+  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #1783BD;
+    font-size: 22px;
+    font-family: "Raleway", "Helvetica", "sans-serif";
+    font-weight: bold;
+    background-color: white;
+    border-bottom: #1783BD solid 2px;
+
+  }
+  .nav > li > a {
+    color: #80BFE8;
+    font-size: 20px;
+    font-family: "Raleway", "Helvetica", "sans-serif";
+    border-bottom: solid 2px #80BFE8;
+    font-weight: bold;
+  }
+  .nav > li > a:hover {
+    color: #1783BD;
+    background: transparent;
+    border-bottom: solid 2px #1783BD;
+  }
+  .nav > li.active {
+    color: #1783BD;
+  }
+}
+
