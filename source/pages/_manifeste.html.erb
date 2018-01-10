@@ -1,7 +1,12 @@
 <div id="manifeste" style="background-image: linear-gradient(-225deg, rgba(209,217,0,1) 0%, rgba(0,145,104,1) 50%)">
   <div class="manifeste-text" style="opacity:1">
 
-    <h2>Notre liberté</h2>
+    <h2 class="ml6">
+      <span class="text-wrapper">
+        <span class="letters">Notre liberté</span>
+      </span>
+    </h2>
+
     <p>
       Les caravanes, les nomades, les voyages, ont de tout temps rapproché les peuples de différentes cultures. <br> Tout en permettant les échanges commerciaux, les caravanes tenaient une place essentielle dans la diffusion des biens, mais aussi des connaissances, des idées. <br>
       <br>
@@ -142,3 +147,28 @@
   </div>
 </div>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script>
+  // Wrap every letter in a span
+$('.ml6 .letters').each(function(){
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml6 .letter',
+    translateY: ["1.1em", 0],
+    translateZ: 0,
+    duration: 1200,
+    delay: function(el, i) {
+      return 50 * i;
+    }
+  }).add({
+    targets: '.ml6',
+    opacity: 0,
+    duration: 3000,
+    easing: "easeOutExpo",
+    delay: 3000
+  });
+</script>
