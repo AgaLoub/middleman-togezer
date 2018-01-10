@@ -23,6 +23,7 @@
     color: white;
   }
 }
+
 .image-chatbot img {
   height: 160px;
 }
@@ -30,8 +31,13 @@
   opacity: 0.6;
 }
 
+.contact-chatbot {
+  padding-top: 50px;
+}
+
 .contact-chatbot h4 {
   color: white;
+  line-height: 30px;
 }
 .contact-coordonnees {
   text-align: center;
@@ -41,6 +47,7 @@
   padding-bottom: 30px;
   font-size: 25px;
   color: white;
+  text-decoration: underline;
 }
 
 .contact-coordonnees i {
@@ -57,6 +64,7 @@
 .facebook-contact i {
   color: #3B50A2;
   font-size: 30px;
+  padding-top: 20px;
   &:hover {
   opacity: 0.6;
 }

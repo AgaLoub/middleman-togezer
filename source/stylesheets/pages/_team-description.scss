@@ -9,5 +9,54 @@
   // padding-top: 40px;
   // padding-bottom: 40px;
 }
+.card-team {
+  padding-top: 50px;
+}
+.linkedin-team {
+  li {
+    list-style: none;
+  }
+  i {
+    color: #0070B9;
+    font-size: 30px;
+  }
+  p {
+    color: black;
+  }
+}
 
+.linkedin-team li:hover {
+  opacity: 0.7;
+}
+.job {
+  padding-top: 250px;
+  text-align: center;
+  font-size: 16px;
+}
 
+.card-fabrice {
+  padding-top: 50px;
+}
+.card-sarah {
+  padding-top: 50px;
+}
+
+.card-tom {
+  padding-top: 50px;
+}
+
+.photo-team {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  border-radius: 200px;
+
+}
+
+.team-description {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+}
