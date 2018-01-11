@@ -1,18 +1,43 @@
 .services {
   background-color: $light-gray;
   text-align: center;
-  padding: 70px;
+  padding: 35px;
   padding-bottom: 50px;
   font-size: 17px;
   h2 {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
-  i {
-    font-size: 40px;
-    color: #1783BD;
-    margin-bottom: 20px;
-  }
-  p {
+  // i {
+  //   font-size: 40px;
+  //   color: #1783BD;
+  //   margin-bottom: 20px;
+  // }
+}
+  .text-schema p {
     margin-bottom: 50px;
+  }
+.schema img {
+  // width: 100%;
+  background-position: center;
+}
+
+.text-schema {
+  background-color: white;
+}
+.text-schema p {
+  padding: 20px;
+  box-shadow: 0 2px 3px #DEDEDE;
+}
+.bref li {
+  list-style: none;
+}
+
+.bref  {
+  padding-top: 20px;
+}
+
+@media (max-width: 1000px) {
+  .schema img {
+    width: 100%;
   }
 }

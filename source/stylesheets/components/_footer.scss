@@ -24,3 +24,15 @@
 .footer .fa-heart {
   color: #D23333;
 }
+.legale p:hover {
+  color: #1783BD;
+}
+
+@media (max-width: 768px) {
+.footer-links {
+  display: none;
+}
+.footer-copyright {
+  font-size: 11px;
+}
+}

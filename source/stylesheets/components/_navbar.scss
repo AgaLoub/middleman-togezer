@@ -80,3 +80,13 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
+@media (max-width: 750px) {
+  .navbar-wagon p {
+    font-size: 15px;
+  }
+  .dropdown img {
+    display: none;
+  }
+}
+

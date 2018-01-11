@@ -30,3 +30,25 @@
   display: inline-block;
   line-height: 1em;
 }
+.arrow {
+  margin-top: 240px;
+  font-size: 30px;
+}
+.arrow :hover{
+  color: #1783BD;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+@media (max-width: 750px) {
+  .arrow  {
+    margin-top: 200px;
+  }
+}
+@media (max-width: 1000px) {
+  .ml15 {
+    width: 100%;
+  }
+
+}

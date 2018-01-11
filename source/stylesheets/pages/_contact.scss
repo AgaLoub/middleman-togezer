@@ -69,4 +69,20 @@
   opacity: 0.6;
 }
 }
+.contact-coordonnees a {
+  color: white;
+}
 
+.contact-coordonnees a:hover {
+    color: #1783BD;
+    text-decoration: none;
+  }
+@media (max-width: 990px) {
+  .contact-chatbot {
+    display: none;
+  }
+  .facebook-contact {
+    padding-top: 20px;
+  }
+
+}

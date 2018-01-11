@@ -1,0 +1,97 @@
+.onglet {
+  padding-top: 25px;
+}
+
+.team {
+  background-color: #F4F4F4;
+  padding-bottom: 120px;
+  padding-top: 30px;
+}
+.team h2 {
+  text-align: center;
+
+}
+.card-team {
+  padding-top: 50px;
+}
+.card-fabrice {
+  padding-top: 50px;
+}
+.card-sarah {
+  padding-top: 50px;
+}
+
+.photo-team {
+  background-repeat: no-repeat;
+  // background-size: 100% auto;
+  // background-position: center;
+  height: 250px;
+  // width: 250px;
+  padding: auto;
+  border-radius: 10px;
+}
+.linkedin-team {
+  i {
+    color: #0070B9;
+    font-size: 30px;
+  }
+}
+.linkedin-team i:hover {
+  opacity: 0.7;
+}
+.job {
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+.job li {
+  list-style: none;
+}
+.tom-job {
+  box-shadow: 0 2px 3px #80BFE8;
+}
+.fabrice-job {
+  box-shadow: 0 2px 3px #009168;
+}
+.sarah-job {
+  box-shadow: 0 2px 3px #D5DD00;
+}
+
+.mail a {
+  color: black;
+}
+.mail a:hover {
+    color: #1783BD;
+    text-decoration: none;
+  }
+
+.card-footer p {
+  font-family: $body-font;
+  margin: 15px 0px;
+}
+
+.team-description {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  // box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+.tom-presentation {
+    box-shadow: 0 2px 3px #80BFE8;
+}
+.fabrice-presentation {
+  box-shadow: 0 2px 3px #009168;
+}
+.sarah-presentation {
+  box-shadow: 0 2px 3px #D5DD00;
+}
+
+@media (max-width: 768px)
+{
+    .team-description {
+        display: none;
+        margin: 20px;
+    }
+}
+
