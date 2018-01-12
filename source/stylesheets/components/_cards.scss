@@ -24,7 +24,7 @@
 
 .card-footer p {
   font-family: $body-font;
-  margin: 15px 0px;
+  // margin: 15px 0px;
 }
 // .card-user {
 //   position: absolute;
@@ -67,4 +67,8 @@
 // .card-link:hover {
 //   opacity: 0.1;
 // }
-
+@media (max-width: 750px) {
+  .caravane-video :hover {
+    margin-top: 0px;
+  }
+}

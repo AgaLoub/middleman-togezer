@@ -30,6 +30,10 @@
   padding: auto;
   border-radius: 10px;
 }
+  .fabrice {
+    margin-top: 20px;
+  }
+
 .linkedin-team {
   i {
     color: #0070B9;
@@ -41,20 +45,31 @@
 }
 .job {
   text-align: center;
-  margin-top: 5px;
+  margin-top: 10px;
   border-radius: 10px;
 }
+
+.job ul {
+  padding: 0px;
+}
+
 .job li {
   list-style: none;
+  font-size: 15px;
+  line-height: 20px;
+  padding-top: 10px;
 }
 .tom-job {
-  box-shadow: 0 2px 3px #80BFE8;
+  box-shadow: 1px -1px 3px #80BFE8, -1px 1px 3px #80BFE8;
+  .title {
+    line-height: 20px;
+  }
 }
 .fabrice-job {
-  box-shadow: 0 2px 3px #009168;
+  box-shadow: 1px -1px 3px #009168, -1px 1px 3px #009168;
 }
 .sarah-job {
-  box-shadow: 0 2px 3px #D5DD00;
+  box-shadow: 1px -1px 3px #D5DD00, -1px 1px 3px #D5DD00;
 }
 
 .mail a {
@@ -75,23 +90,38 @@
   padding: 15px;
   text-align: center;
   border-radius: 10px;
+  font-size: 16px;
   // box-shadow: 0 1px 3px rgba(0,0,0,0.6);
 }
 .tom-presentation {
-    box-shadow: 0 2px 3px #80BFE8;
+    box-shadow: 1px -1px 3px #80BFE8, -1px 1px 3px #80BFE8;
+    margin-top: 5px;
 }
 .fabrice-presentation {
-  box-shadow: 0 2px 3px #009168;
+  box-shadow: 1px -1px 3px #009168, -1px 1px 3px #009168;
 }
 .sarah-presentation {
-  box-shadow: 0 2px 3px #D5DD00;
+  box-shadow: 1px -1px 3px #D5DD00, -1px 1px 3px #D5DD00;
+  margin-top: 25px;
+}
+.citation {
+  font-style: italic;
 }
 
-@media (max-width: 768px)
-{
+@media (max-width: 768px) {
     .team-description {
         display: none;
         margin: 20px;
+    }
+
+    .photo-team {
+      margin: 10px;
+    }
+    .job {
+      margin: 10px;
+    }
+    .caravane-video {
+      text-align: center;
     }
 }
 
