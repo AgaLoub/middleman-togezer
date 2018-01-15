@@ -1,3 +1,8 @@
+.entire-site {
+  width: 100%;
+  overflow:hidden;
+}
+
 .home-global-container {
   background-size: cover !important;
 }
@@ -34,6 +39,7 @@
   margin-top: 240px;
   font-size: 30px;
 }
+
 .arrow :hover{
   color: #1783BD;
   text-decoration: none;

@@ -4,8 +4,9 @@
 
 .team {
   background-color: #F4F4F4;
-  padding-bottom: 120px;
   padding-top: 30px;
+  width: 100%;
+  overflow: hidden;
 }
 .team h2 {
   text-align: center;
@@ -20,6 +21,7 @@
 .card-sarah {
   padding-top: 50px;
 }
+
 
 .photo-team {
   background-repeat: no-repeat;
@@ -83,6 +85,10 @@
 .card-footer p {
   font-family: $body-font;
   margin: 15px 0px;
+}
+
+.photo-caravane {
+  height: 200px;
 }
 
 .team-description {

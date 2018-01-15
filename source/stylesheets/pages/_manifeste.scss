@@ -1,26 +1,50 @@
-#manifeste {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+// #manifeste {
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+//   text-align: center;
+//   padding-bottom: 30px;
+//   padding-top: 30px;
+// }
+
+#manifeste2 {
+  border: 10px solid #FC0000;
+  margin: 40px;
+  background-color: #FBFBFB;
   text-align: center;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  background-size: cover;
+}
+.manifeste-text2 {
+  h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+}
+.important {
+  font-weight: bold;
+}
+.manifeste-text2 p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
+  padding: 0px 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.manifeste-text {
-  h2 {
-    color: white;
-    opacity: 1;
-    margin-bottom: 20px;
-  }
- p {
-    font-size: 20px;
-    padding: 0px 50px;
-    margin-top: 30px;
-    opacity: 1;
-    color: white;
-}
-}
+// .manifeste-text {
+//   h2 {
+//     color: white;
+//     opacity: 1;
+//     margin-bottom: 20px;
+//   }
+//  p {
+//     font-size: 20px;
+//     padding: 0px 50px;
+//     margin-top: 30px;
+//     opacity: 1;
+//     color: white;
+// }
+// }
 
 .ml6 {
   position: relative;
@@ -43,7 +67,7 @@
 }
 
 @media (max-width: 768px) {
-  .manifeste-text p {
+  .manifeste-text2 p {
     font-size: 18px;
   }
 }

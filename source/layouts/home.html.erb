@@ -1,6 +1,10 @@
-<% content_for(:navbar_class, "navbar-home") %>
+<div class="entire-site">
+  <% content_for(:navbar_class, "navbar-home") %>
 
-<div class="home-global-container" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 50%), url(<%= image_path "frog.jpg" %>)"">
+<!-- <div class="home-global-container" style="background-image: linear-gradient(-225deg, rgba(250,255,0,0.4) 0%, rgba(40,50,0,0.4) 50%), url(<%= image_path "picture.png" %>)""> -->
+  <div class="home-global-container" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 50%), url(<%= image_path "picture.png" %>)"">
+
+<!--   <div class="home-global-container" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 50%), url(<%= image_path "top.jpg" %>)""> -->
   <%= partial "shared/navbar" %>
 
     <div class="banner">
@@ -17,11 +21,11 @@
           </ul>
         </h4>
         <a><input type="button" class="btn btn-access" name="access" value="Accéder à la plateforme" onclick="window.open('http://all.togezer.travel/login?redirect=%2F');"onclick></a>
+
         <div class="arrow">
           <a href="#services"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
         </div>
       </div>
-
     </div>
 </div>
 
@@ -40,7 +44,7 @@
 </div>
 
 <%= partial "shared/footer" %>
-
+</div>
 
 <script>
   anime.timeline({loop: false})

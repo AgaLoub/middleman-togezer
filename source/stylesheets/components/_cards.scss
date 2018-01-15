@@ -1,6 +1,8 @@
 .card-video {
   padding-top: 50px;
-}
+  height: 80vh;
+ }
+
 
 .card {
   height: 175px;
@@ -10,9 +12,26 @@
   position: relative;
   box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
 }
-.caravane-video :hover {
-  margin-top: -15px;
+// .caravane-video :hover {
+//   margin-top: -15px;
+// }
+
+.card-team {
+  padding-bottom: 50px;
 }
+.caravane-explication {
+  text-align: center;
+  h3 {
+    padding: 20px 0px;
+
+  }
+li {
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+}
+
 .card-footer {
   display: flex;
   justify-content: space-around;
@@ -26,6 +45,19 @@
   font-family: $body-font;
   // margin: 15px 0px;
 }
+
+@media (max-width: 1000px) {
+   .caravane-explication {
+     display: none;
+   }
+   .caravane-video {
+    padding-bottom: 30px;
+   }
+   .onglet {
+    margin-bottom: 50px;
+   }
+ }
+
 // .card-user {
 //   position: absolute;
 //   right: 10px;
@@ -67,8 +99,8 @@
 // .card-link:hover {
 //   opacity: 0.1;
 // }
-@media (max-width: 750px) {
-  .caravane-video :hover {
-    margin-top: 0px;
-  }
-}
+// @media (max-width: 750px) {
+//   .caravane-video :hover {
+//     margin-top: 0px;
+//   }
+// }
