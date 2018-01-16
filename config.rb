@@ -20,3 +20,9 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
+
+activate :i18n
+# activate :i18n, mount_at_root: :fr
+# activate :i18n, :mount_at_root => false
+
+# require '.config/initializers/localeapp'

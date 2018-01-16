@@ -23,6 +23,13 @@
 .important {
   font-weight: bold;
 }
+.come {
+  color: #FC0000;
+  font-size: 26px;
+}
+.come img {
+  width: 150px;
+}
 .manifeste-text2 p {
   font-family: 'Roboto Slab', serif;
   font-size: 22px;
@@ -69,6 +76,9 @@
 @media (max-width: 768px) {
   .manifeste-text2 p {
     font-size: 18px;
+  }
+  .come {
+    font-size: 21px;
   }
   .letters {
     font-size: 27px;

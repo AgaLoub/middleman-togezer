@@ -1,11 +1,9 @@
 .services {
   background-color: $light-gray;
   text-align: center;
-  padding: 35px;
+  padding: 20px 35px;
   padding-bottom: 50px;
   font-size: 17px;
-  width: 100%;
-  overflow: hidden;
   h2 {
     padding-bottom: 20px;
     padding-top: 0px;
@@ -48,6 +46,7 @@
 @media (max-width: 1000px) {
   .schema img {
     width: 100%;
+    height: auto;
   }
   .bref .video {
     width: 100%;
