@@ -1,9 +1,11 @@
 .onglet {
   padding-top: 25px;
 }
+.onglet .nav-pills > i.active > a {
+}
 
 .team {
-  background-color: #F4F4F4;
+  background-color: $light-gray;
   padding-top: 15px;
   width: 100%;
   overflow: hidden;
