@@ -1,8 +1,8 @@
 #contact {
-  background-color: #F4F4F4;
+  background-color: white;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 85vh;
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -13,20 +13,20 @@
   font-size: 17px;
   h2 {
     padding-bottom: 50px;
-    color: white;
+    color: black;
   }
   li {
      list-style: none;
-     color: white;
+     color: black;
   }
   p {
     margin-bottom: 50px;
-    color: white;
+    color: black;
   }
 }
 
 .image-chatbot img {
-  height: 160px;
+  height: 280px;
   opacity: 1;
 }
 .image-chatbot :hover {
@@ -38,17 +38,20 @@
 }
 
 .contact-chatbot h4 {
-  color: white;
+  color: black;
   line-height: 30px;
 }
 .contact-coordonnees {
   text-align: center;
+  border: 1px solid #E6E6E6;
+  box-shadow: 1px -1px 3px #E6E6E6, -1px 1px 3px #E6E6E6;
+  padding: 10px;
 }
 
 .contact-coordonnees h4 {
   padding-bottom: 30px;
   font-size: 25px;
-  color: white;
+  color: black;
   text-decoration: underline;
 }
 
@@ -72,7 +75,7 @@
 }
 }
 .contact-coordonnees a {
-  color: white;
+  color: black;
 }
 
 .contact-coordonnees a:hover {
